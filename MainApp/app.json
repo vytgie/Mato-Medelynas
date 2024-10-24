@@ -1,0 +1,47 @@
+{
+  "id": "0bc5de4c-3240-413c-92b0-4b1f034e5554",
+  "name": "Mato Medelynas",
+  "publisher": "Softera Baltic",
+  "version": "1.0.0.0",
+  "brief": "Mato Medelynas",
+  "description": "Mato Medelynas",
+  "privacyStatement": "https://www.softera.lt",
+  "EULA": "https://www.softera.lt",
+  "help": "https://www.softera.lt",
+  "contextSensitiveHelpUrl": "https://www.softera.lt",
+  "url": "https://www.softera.lt",
+  "logo": "../logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 0,
+      "to": 0
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "target": "Cloud",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith"
+  ],
+  "supportedLocales": [
+    "en-US",
+    "lt-LT"
+  ],
+  "applicationInsightsConnectionString": "InstrumentationKey=c1266739-6bd6-488c-9fea-2c08c47ebee9;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/",
+  "internalsVisibleTo": [],
+  "preprocessorSymbols": [
+    "//SHOW_WARNINGS",
+    "//USE_USER_GROUPS",
+    "USE_DATA_TRANSFER",
+    "USE_ACTION_REFS"
+  ]
+}
